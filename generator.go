@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	rand := password.MustGenerate(10, 0, 3, false, false)
+	rand := password.MustGenerate(10, 3, 1, false, false)
 
 	fmt.Println("Sua senha é: " + rand)
 }
